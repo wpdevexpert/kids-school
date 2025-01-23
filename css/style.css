@@ -352,3 +352,66 @@ nav .contact:hover {
     background-color: transparent;
     color: var(--black);
 }
+
+/* Footer */
+footer {
+    padding: 120px 0 180px;
+    background-color: #01ACFD;
+}
+
+.footer-widget-area {
+    gap: 80px;
+    color: white;
+}
+
+.footer-widget-area a {
+    color: white;
+}
+
+.footer-widget {
+    width: 30%;
+}
+
+.footer-about {
+    width: 40%;
+}
+
+.footer-widget h4 {
+    margin-bottom: 30px;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.footer-widget ul {
+    list-style: none;
+}
+
+.footer-logo img {
+    width: 62px;
+    height: 62px;
+}
+
+.footer-logo a {
+    color: #FFF;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.footer-logo {
+    margin-bottom: 35px;
+}
+
+ul.footer-menu li {
+    margin-bottom: 18px;
+}
+
+ul.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+ul.social-icons li i {
+    font-size: 32px;
+}

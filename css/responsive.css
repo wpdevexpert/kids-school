@@ -90,6 +90,16 @@
         font-weight: 700;
         line-height: 18px;
     }
+
+    /*Footer*/
+    .footer-widget-area {
+        flex-direction: column;
+    }
+
+    .footer-widget,
+    .footer-about {
+        width: 100%;
+    }
 }
 
 /* Tablet devices */
