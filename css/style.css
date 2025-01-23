@@ -18,6 +18,14 @@ Author: Milon
     --black: #111;
 }
 
+.orange {
+    color: var(--orange)
+}
+
+.sky-blue {
+    color: var(--sky-blue);
+}
+
 body {
     color: var(--black);
     font-family: Quicksand;
@@ -27,15 +35,30 @@ body {
     line-height: normal;
 }
 
+a {
+    text-decoration: none;
+}
+
 button {
     cursor: pointer;
-    color: #FFF;
     font-family: Quicksand;
+}
+
+.btn {
+    padding: 10px 40px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    border-radius: 12px;
+    border: 1px solid;
 }
 
 .container {
     max-width: 1160px;
     margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .flex {
@@ -58,12 +81,17 @@ button {
     display: grid;
 }
 
+.hide-on-pc {
+    display: none;
+}
+
 /*Header Navigation*/
 .navigation {
     padding: 20px 0;
 }
 
-.logo h1 {
+.logo a span {
+    color: var(--black);
     font-size: 32px;
     font-weight: 700;
     line-height: 30px;
@@ -100,19 +128,41 @@ button {
     color: var(--orange);
 }
 
-.nav-contact {
-    padding: 10px 40px;
+nav .contact {
     background-color: var(--orange);
     color: white;
-    border: 1px solid var(--orange);
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 30px;
-    border-radius: 12px;
+    border-color: var(--orange);
 }
 
-.nav-contact:hover {
+nav .contact:hover {
     background-color: white;
     color: var(--orange);
+}
+
+/*Hero Section*/
+.hero-area .flex {
+    gap: 50px;
+}
+
+.hero-content h1 {
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 61px;
+    margin-bottom: 24px;
+}
+
+.hero-content p {
+    margin-bottom: 24px;
+}
+
+.hero-content .btn {
+    background-color: var(--black);
+    color: white;
+    border-color: var(--black);
+}
+
+.hero-content .btn:hover {
+    background-color: transparent;
+    color: var(--black);
 }

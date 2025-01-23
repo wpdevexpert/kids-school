@@ -8,27 +8,48 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1bc4efb022.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
 </head>
 
 <body>
     <header>
-        <div class="container">
-            <nav class="navigation flex justify-between align-center">
-                <div class="logo flex align-center">
-                    <img src="images/logo.png" alt="kids school">
-                    <h1>Kids School</h1>
+        <nav class="navigation">
+            <div class="container flex justify-between align-center">
+                <div class="logo">
+                    <a class="flex align-center" href="index.html">
+                        <img src="images/logo.png" alt="kids school">
+                        <span class="hide-on-mobile">Kids School</span>
+                    </a>
                 </div>
-                <ul class="header-menu flex align-center">
+                <ul class="header-menu flex align-center hide-on-mobile">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Facilities</a></li>
                     <li><a href="#">Admission</a></li>
                 </ul>
-                <button class="nav-contact">Contact</button>
-            </nav>
-        </div>
+                <button class="btn contact hide-on-mobile">Contact</button>
+                <button class="hamburger hide-on-pc"><i class="fa-solid fa-bars"></i></button>
+            </div>
+        </nav>
+        <section class="hero-area">
+            <div class="container flex justify-between align-center">
+                <div class="hero-content">
+                    <h1>
+                        <span class="orange">Empowering</span> <br />students from small age <span
+                            class="sky-blue">towards
+                            vision</span>
+                    </h1>
+                    <p>With the courage, Confidence, Creativity and Compassion to make their Unique Contribution in a
+                        Diverse and Dynamic World.</p>
+                    <button class="btn">Enroll Now</button>
+                </div>
+                <div class="hero-image">
+                    <img src="images/hero-kids.png" alt="Hero Kids">
+                </div>
+            </div>
+        </section>
     </header>
     <main>
 
