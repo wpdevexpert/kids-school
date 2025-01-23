@@ -1,11 +1,11 @@
 /* Small devices */
 @media screen and (max-width: 576px) {
     .hide-on-mobile {
-        display: none;
+        display: none !important;
     }
 
     .hide-on-pc {
-        display: block;
+        display: block !important;
     }
 
     .hero-area .flex {
@@ -18,6 +18,10 @@
 
     h1 {
         font-size: 32px;
+    }
+
+    h2 {
+        font-size: 26px;
     }
 
     p {
@@ -44,6 +48,17 @@
     /*Hero Area*/
     .hero-content {
         text-align: center;
+    }
+
+    /*Curriculum*/
+    .curriculum {
+        padding: 40px 0;
+    }
+
+    .curriculum-cards {
+        padding: 20px 0;
+        flex-direction: column;
+        gap: 20px;
     }
 }
 
