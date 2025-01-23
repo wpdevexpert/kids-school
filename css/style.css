@@ -159,6 +159,11 @@ nav .contact:hover {
     color: var(--orange);
 }
 
+/*Notice*/
+.notice-area {
+    background: #DEF5FF;
+}
+
 /*Hero Section*/
 .hero-area .flex {
     gap: 50px;
