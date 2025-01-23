@@ -60,6 +60,36 @@
         flex-direction: column;
         gap: 20px;
     }
+
+    /*Our Stories*/
+    .stories {
+        padding: 40px 0;
+    }
+
+    .our-stories {
+        padding: 20px 0;
+    }
+
+    .stories-right {
+        width: 100%;
+    }
+
+    .story-card-content {
+        padding: 20px;
+    }
+
+    .story-card .date-meta {
+        top: -22px;
+        padding: 10px 20px;
+        font-size: 9px;
+    }
+
+    .stories-right h3 {
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 18px;
+    }
 }
 
 /* Tablet devices */

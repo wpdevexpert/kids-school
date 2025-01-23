@@ -97,6 +97,10 @@ button {
     display: grid;
 }
 
+.text-center {
+    text-align: center;
+}
+
 .hide-on-pc {
     display: none !important;
 }
@@ -260,4 +264,91 @@ nav .contact:hover {
     font-size: 24px;
     font-weight: 900;
     line-height: 24px;
+}
+
+/*Our Stories*/
+.stories {
+    padding: 60px 0;
+    background: url('../images/bg.png'), linear-gradient(0deg, rgba(254, 163, 1, 0.30) 0%, rgba(255, 255, 255, 0.30) 100%)
+}
+
+.our-stories {
+    padding: 80px 0;
+    gap: 20px;
+}
+
+.stories img {
+    max-width: 100%;
+}
+
+.stories-left {
+    width: 46%;
+}
+
+.stories-left h3 {
+    font-size: 24px;
+    line-height: 38px;
+    margin: 20px 0 45px;
+}
+
+.stories-right {
+    width: 52%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.stories-right h3 {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.story-card {
+    border-radius: 16px;
+    background-color: white;
+}
+
+.story-card img {
+    border-radius: 16px 16px 0px 0px;
+}
+
+.story-card-content {
+    position: relative;
+    padding: 38px;
+}
+
+.story-card .date-meta {
+    position: absolute;
+    top: -28px;
+    padding: 12px 30px;
+    background-color: #95B226;
+    color: white;
+    border-radius: 50px;
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.stories-left .date-meta {
+    background-color: #3CD8E8;
+}
+
+.stories-right .story-card:nth-child(2) .date-meta,
+.stories-right .story-card:nth-child(3) .date-meta {
+    background-color: #5D58F0;
+}
+
+.stories .btn {
+    margin: 0 auto;
+    background-color: var(--black);
+    color: white;
+    border-color: var(--black);
+}
+
+.stories .btn:hover {
+    background-color: transparent;
+    color: var(--black);
 }
