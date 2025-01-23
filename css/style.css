@@ -1,0 +1,118 @@
+/*
+Theme: Kids School
+Author: Milon
+*/
+
+/*Shared Styles*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --orange: #FEA301;
+    --sky-blue: #01ACFD;
+    --aqua-blue: #05D4DF;
+    --purple: #5D58EF;
+    --black: #111;
+}
+
+body {
+    color: var(--black);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+button {
+    cursor: pointer;
+    color: #FFF;
+    font-family: Quicksand;
+}
+
+.container {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.grid {
+    display: grid;
+}
+
+/*Header Navigation*/
+.navigation {
+    padding: 20px 0;
+}
+
+.logo h1 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.header-menu {
+    list-style: none;
+    gap: 32px;
+}
+
+.header-menu li a {
+    font-weight: 500;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+.header-menu li:first-child a {
+    color: var(--orange);
+}
+
+.header-menu li:nth-child(2) a {
+    color: var(--sky-blue);
+}
+
+.header-menu li:nth-child(3) a {
+    color: var(--aqua-blue);
+}
+
+.header-menu li:last-child a {
+    color: var(--purple);
+}
+
+.header-menu li:hover a {
+    color: var(--orange);
+}
+
+.nav-contact {
+    padding: 10px 40px;
+    background-color: var(--orange);
+    color: white;
+    border: 1px solid var(--orange);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    border-radius: 12px;
+}
+
+.nav-contact:hover {
+    background-color: white;
+    color: var(--orange);
+}
